@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Generated videos and YOLO run outputs
+data/videos/
+data/images/
+outputs/videos/
+outputs/images/
+runs/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Generated results and report
+results/
+PROJECT_REPORT.md
+
+# Trained YOLO model weights
+*.pt
