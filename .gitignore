@@ -5,6 +5,8 @@
 .venv/
 venv/
 env/
+__pycache__/
+*.py[cod]
 
 # Generated videos and YOLO run outputs
 data/videos/
